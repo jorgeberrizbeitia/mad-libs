@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Libs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1>Mad Libs Ironhack</h1>
+
+<div id="historia">
+    
+  <p>Un día, <span id="nombre">______</span> decidió ir a <span id="lugar">______</span> con su <span id="animal">______</span> favorito. Durante el paseo, encontraron <span id="objeto">______</span> especial que les permitió <span id="verbo1">______</span> durante todo el día.</p>
+    <p>Más tarde, conocieron a alguien que trabaja como <span id="profesion">______</span> y les ofreció <span id="comida">______</span>. Al final, decidieron <span id="verbo2">______</span> juntos, ¡haciendo que el día fuera increíble!</p>
+
+</div>
+
+<div id="formulario">
+  
+  <p>Llena cada uno de los campos con cualquier valor que se te ocurra y luego haz click en el botón para ver el Mad Libs!</p>
+    
+  <div>
+    <label>Nombre: </label>
+    <input id="nombre-input" type="text" placeholder="ejemplos: Bob, Patricio...">
+  </div>
+    
+  <div>
+    <label>Lugar: </label>
+    <input id="lugar-input" type="text" placeholder="ejemplos: la montaña, el parque...">
+  </div>
+    
+  <div>
+    <label>Animal: </label>
+    <input id="animal-input" type="text" placeholder="ejemplos: perro, gato...">
+  </div>
+    
+  <div>
+    <label>Objeto: </label>
+    <input id="objeto-input" type="text" placeholder="ejemplos: una silla, un lapiz ">
+  </div>
+    
+  <div>
+    <label>Verbo 1: </label>
+    <input id="verbo1-input" type="text" placeholder="ejemplos: volar, comer">
+  </div>
+    
+  <div>
+    <label>Profesión: </label>
+    <input id="profesión-input" type="text" placeholder="ejemplos: albañil, granjero">
+  </div>
+    
+  <div>
+    <label>Comida: </label>
+    <input id="comida-input" type="text" placeholder="ejemplos: jamón, tarta">
+  </div>
+    
+  <div>
+    <label>Verbo 2: </label>
+    <input id="verbo2-input" type="text" placeholder="ejemplos: volar, comer">
+  </div>
+
+  <!-- <button>Ver el Mad Libs!</button> -->
+  <button onclick="activarMadLibs()">Ver el Mad Libs!</button>
+
+</div>
+   
+
+  <script src="./script.js"></script>
+</body>
+</html>
